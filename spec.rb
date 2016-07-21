@@ -34,7 +34,7 @@ class Person
     if @middle_name
       "#{@first_name} #{middle_initial}. #{@last_name}"
     else
-      full_name
+      "#{@first_name} #{@middle_name} #{@last_name}"
     end
   end
 
